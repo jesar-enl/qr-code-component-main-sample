@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+ body {
+     font-size: 15px;
+     font-family: 'Outfit', sans-serif;
+     font-family: 'Poppins', sans-serif;
+     background-color:  #e3f3f7 ;
+ }
+
+ .container {
+     text-align: center;
+     background-color:whitesmoke;
+     padding: 3rem;
+     margin: 2rem;
+     border-radius: 3rem;
+ }
+
+ .container__image {
+     border-radius: 2rem;
+     width: 60%;
+     height: 50%;
+ }
+
+ .container__text-heading {
+     color: hsl(218, 44%, 22%);
+ }
+
+ .container__text-para {
+     color: hsl(220, 15%, 55%);
+ }
+
+ @media screen and (max-width:1440px) {
+     .container {
+         
+         text-align: center;
+         /* margin-right: 10rem; */
+         padding: 2rem;
+     }
+ }
+ 
+ @media screen and (max-width:375px) {
+    .container {
+        width: 40%;
+        text-align: center;
+        margin-right: 10rem;
+        padding: 2rem;
+    }
+}

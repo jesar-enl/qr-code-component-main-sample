@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+ body {
+     font-size: 15px;
+     font-family: 'Outfit', sans-serif;
+     font-family: 'Poppins', sans-serif;
+     background-color:  #e3f3f7 ;
+ }
+
+ .container {
+     text-align: center;
+ }
+
+ .container__image {
+     border-radius: 2rem;
+ }
+
+ .container__text-heading {
+     color:
+ }
